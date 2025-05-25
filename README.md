@@ -1,17 +1,38 @@
-# flutter_bloc_starter
+# Flutter Starter Template (Bloc + Clean Architecture + Responsive UI)
 
-A new Flutter project.
+A production-ready Flutter starter template built using **Bloc**, **Clean Architecture**, and a **Responsive UI** layout that supports **Android**, **iOS**, and **Web** platforms.
 
-## Getting Started
+This project provides a scalable base for new Flutter applications that require structure, performance, and flexibility across multiple platforms.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ **Clean Architecture** — Clear separation of concerns
+- ✅ **Bloc State Management** — Predictable, testable, and scalable
+- ✅ **Responsive Layout** — Supports Mobile, Tablet, Desktop (Web)
+- ✅ **Cross-Platform** — Android, iOS, Web ready
+- ✅ **Named Routing** — Centralized route management
+- ✅ **Modular Structure** — Easy to scale and maintain
+- ✅ **Service & Repository Layers** — Abstracted business logic and APIs
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Flutter-Starter-Bloc
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Flutter 3.16.0 or above
+- Dart 3.2.0 or above
+- Android Studio or VS Code
+- Chrome (for Web testing)
+- Xcode (for iOS builds)
+
+---
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/flutter-starter-template.git
+cd flutter-starter-template
+flutter pub get
