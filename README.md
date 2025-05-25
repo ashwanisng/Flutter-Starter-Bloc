@@ -36,3 +36,36 @@ This project provides a scalable base for new Flutter applications that require 
 git clone https://github.com/your-username/flutter-starter-template.git
 cd flutter-starter-template
 flutter pub get
+
+
+## Running the app
+
+flutter run -d android   # Android
+flutter run -d ios       # iOS
+flutter run -d chrome    # Web
+
+
+## Installation
+
+lib/
+├── blocs/               # Feature-wise Bloc logic
+│   └── home/
+│       ├── home_bloc.dart
+│       ├── home_event.dart
+│       └── home_state.dart
+├── config/              # Global themes and environment setup
+├── constants/           # Static values (colors, strings)
+├── models/              # Data models
+├── repositories/        # Interfaces and data providers
+├── routes/              # App-wide navigation routes
+├── screens/             # Feature-specific UIs
+│   └── home/
+│       ├── home_screen.dart
+│       ├── mobile_view.dart
+│       ├── tablet_view.dart
+│       └── desktop_view.dart
+├── services/            # APIs and shared services
+├── utils/               # Helper utilities
+│   └── responsive_layout.dart
+├── widgets/             # Shared components (buttons, cards, etc.)
+└── main.dart            # App entry point
